@@ -54,7 +54,7 @@
         "nonce": "^1.0.4",
         "redis": "^2.7.1",
         "request": "^2.88.0",
-        "cryptopool.builders-stratum-pool": "https://github.com/cryptopool-builders/cryptopool.builders-stratum-pool.git"
+        "cryptopool.builders-stratum-pool": "git://github.com/cryptopool-builders/cryptopool.builders-stratum-pool.git"
     },
     "engines": {
         "node": ">=12.10.3"
