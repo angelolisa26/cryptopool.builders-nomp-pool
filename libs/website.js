@@ -11,8 +11,8 @@ var bodyParser = require('body-parser');
 var compress = require('compression');
 var ampCors = require('amp-toolbox-cors');
 
-var Stratum = require('cryptocurrency-stratum-pool');
-var util = require('cryptocurrency-stratum-pool/lib/util.js');
+var Stratum = require('cryptopool.builders-stratum-pool');
+var util = require('cryptopool.builders-stratum-pool/lib/util.js');
 
 var api = require('./api.js');
 
@@ -76,7 +76,7 @@ module.exports = function(logger) {
 
 	var readPageFiles = function(files) {
 		async.each( files, function(fileName, callback) {
-			var filePath = 'website/' + ( fileName === 'index.html' ? '' : 'pages/' ) + fileName;
+			var filePath = '../site/web/' + ( fileName === 'index.html' ? '' : 'pages/' ) + fileName;
 			fs.readFile( filePath, 'utf8', function(err, data) {
 				var pTemp = dot.template( data );
 				pageTemplates[pageFiles[fileName]] = pTemp
@@ -93,7 +93,7 @@ module.exports = function(logger) {
 
 	// if an html file was changed reload it
 	/* requires node-watch 0.5.0 or newer */
-	watch( ['./website', './website/pages'], function(evt, filename) {
+	watch( ['../site/web/', '../site/web/'], function(evt, filename) {
 		var basename;
 		// support older versions of node-watch automatically
 		if ( !filename && evt ) {
