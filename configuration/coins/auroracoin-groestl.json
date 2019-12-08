@@ -1,0 +1,13 @@
+{
+	"name": "Auroracoin - groestl",
+	"symbol": "AUR",
+	"algorithm": "groestlmyriad",
+	"coinbase": "cryptopool.builders -https://github.com/cryptopool-builders/Multi-Pool-Installer",
+	"peerMagic": "fda4dc6c",
+	"passAlgorithm": "groestl",
+	"getAllNetworkHashPS": true,
+	"explorer": {
+		"txURL": "http://insight.auroracoin.is/tx/",
+		"blockURL": "http://insight.auroracoin.is/block/"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Dash",
+	"symbol": "DASH",
+	"algorithm": "x11",
+	"mposDiffMultiplier": 256,
+	"coinbase": "cryptopool.builders -https://github.com/cryptopool-builders/Multi-Pool-Installer",
+	"peerMagic": "bf0c6bbd",
+	"peerMagicTestnet": "cee2caff",
+	"explorer": {
+		"txURL": "https://explorer.dash.org/tx/",
+		"blockURL": "https://explorer.dash.org/block/"
+	}
+}

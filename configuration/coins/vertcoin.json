@@ -1,0 +1,12 @@
+{
+	"name": "Vertcoin",
+	"symbol": "VTC",
+	"algorithm": "lyra2v3",
+	"coinbase": "cryptopool.builders -https://github.com/cryptopool-builders/Multi-Pool-Installer",
+	"peerMagic": "fabfb5da",
+	"peerMagicTestnet": "76657274",
+	"explorer": {
+		"txURL": "https://insight.vertcoin.org/tx/",
+		"blockURL": "https://insight.vertcoin.org/block/"
+	}
+}

@@ -1,0 +1,6 @@
+ {
+	"name": "Monero",
+	"symbol": "XMR",
+	"algorithm": "cryptonight",
+	"coinbase": "cryptopool.builders -https://github.com/cryptopool-builders/Multi-Pool-Installer"
+}
