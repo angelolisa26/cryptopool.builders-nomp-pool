@@ -22,10 +22,10 @@
     },
 
     "ports": {
-        "3008": {
+        "rand_port_low": {
             "diff": 8
         },
-        "3032": {
+        "rand_port_var": {
             "diff": 32,
             "varDiff": {
                 "minDiff": 8,
@@ -35,25 +35,9 @@
                 "variancePercent": 30
             }
         },
-        "rand_port_low": {
+        "rand_port_high": {
             "diff": 256
         }
-    },
-    
-        "rand_port_var": {
-            "diff": 32,
-            "varDiff": {
-            "minDiff": 8,
-            "maxDiff": 1500,
-            "targetTime": 15,
-            "retargetTime": 90,
-            "variancePercent": 30
-	       }
-    },
-    
-         "rand_port_high": {
-		          "diff": 2000
-			    }
     },
 
     "daemons": [
@@ -81,6 +65,15 @@
         "database": "ltc",
         "checkPassword": true,
         "autoCreateWorker": false
+    },
+
+    "mongoMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "user": "",
+        "pass": "",
+        "database": "ltc",
+        "authMechanism": "DEFAULT"
     }
 
 }
