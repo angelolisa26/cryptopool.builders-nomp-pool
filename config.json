@@ -33,8 +33,8 @@
     "website": {
         "enabled": true,
         "host": "0.0.0.0",
-        "port": 80,
-        "stratumHost": "cryppit.com",
+        "port": 3000,
+        "stratumHost": "Stratum_URL",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
@@ -42,7 +42,7 @@
         },
         "adminCenter": {
             "enabled": true,
-            "password": "password"
+            "password": "PASSWORD"
         }
     },
 
