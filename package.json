@@ -1,7 +1,7 @@
 {
-    "name": "cryptocurrency-pool-server",
+    "name": "cryptopool.builders-nomp-pool",
     "version": "0.9.0",
-    "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency pool server",
+    "description": "cryptopool.builders for all your crypto server needs",
     "keywords": [
         "stratum",
         "mining",
@@ -19,13 +19,14 @@
         "verushash",
         "x16rv2"
     ],
-    "homepage": "https://github.com/AoD-Technologies/cryptocurrency-pool-server",
+    "homepage": "https://github.com/cryptopool-builders/Multi-Pool-Installer",
     "bugs": {
-        "url": "https://github.com/AoD-Technologies/cryptocurrency-pool-server/issues"
+        "url": "https://github.com/cryptopool-builders/Multi-Pool-Installer/issues"
     },
     "license": "GPL-3.0",
-    "author": "Jonathan Horowitz",
+    "author": "cryptopool.builders",
     "contributors": [
+        "Jonathan Horowitz",
         "zone117x",
         "Matthew Little",
         "vekexasia",
@@ -53,7 +54,7 @@
         "nonce": "^1.0.4",
         "redis": "^2.7.1",
         "request": "^2.88.0",
-        "cryptocurrency-stratum-pool": "git://github.com/AoD-Technologies/cryptocurrency-stratum-pool.git"
+        "cryptopool.builders-stratum-pool": "https://github.com/cryptopool-builders/cryptopool.builders-stratum-pool.git"
     },
     "engines": {
         "node": ">=12.10.3"
