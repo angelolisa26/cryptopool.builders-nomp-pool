@@ -1,0 +1,10 @@
+{
+	"name": "$coin_name",
+	"symbol": "symbol",
+	"algorithm": "algo",
+	"coinbase": "cryptopool.builders -https://github.com/cryptopool-builders/Multi-Pool-Installer",
+	"explorer": {
+		"txURL": "tx_url_link",
+		"blockURL": "block_url_link"
+	}
+}
