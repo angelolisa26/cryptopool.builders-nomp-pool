@@ -1,0 +1,66 @@
+{
+    "name": "cryptopool.builders-nomp-pool",
+    "version": "0.9.0",
+    "description": "cryptopool.builders for all your crypto server needs",
+    "keywords": [
+        "stratum",
+        "mining",
+        "staking",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "zcash",
+        "veruscoin",
+        "sha256",
+        "scrypt",
+        "equihash",
+        "verushash",
+        "x16rv2"
+    ],
+    "homepage": "https://github.com/cryptopool-builders/Multi-Pool-Installer",
+    "bugs": {
+        "url": "https://github.com/cryptopool-builders/Multi-Pool-Installer/issues"
+    },
+    "license": "GPL-3.0",
+    "author": "cryptopool.builders",
+    "contributors": [
+        "Jonathan Horowitz",
+        "zone117x",
+        "Matthew Little",
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "init.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AoD-Technologies/cryptocurrency-pool-server.git"
+    },
+    "dependencies": {
+        "amp-toolbox-cors": "^1.2.0-alpha.2",
+        "async": "^3.1.0",
+        "bignum": "^0.13.1",
+        "body-parser": "^1.19.0",
+        "colors": "^1.4.0",
+        "compression": "^1.7.4",
+        "cryptopool.builders-stratum-pool": "git+https://github.com/mardock2009/Ravencoin-stratum-server.git",
+        "dateformat": "^3.0.3",
+        "dot": "^1.1.2",
+        "express": "^4.17.1",
+        "extend": "^3.0.2",
+        "ip-anonymize": "^0.1.0",
+        "mysql": "^2.17.1",
+        "node-json-minify": "^1.0.0",
+        "node-watch": "^0.6.3",
+        "nonce": "^1.0.4",
+        "redis": "^2.7.1",
+        "request": "^2.88.0",
+        "sha3": "^2.1.4",
+        "winston": "^3.6.0",
+        "winston-daily-rotate-file": "^4.6.1"
+    },
+    "engines": {
+        "node": ">=12.10.3"
+    }
+}
